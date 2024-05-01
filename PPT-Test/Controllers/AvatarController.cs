@@ -28,7 +28,7 @@ public class AvatarController : ControllerBase
 
         char lastDigit = userId.Last();
 
-        //If the last character of the user identifier is [6, 7, 8, 9]..... Contains
+        //If the last character of the user identifier is [6, 7, 8, 9]..... Contains.....
         if ("6789".Contains(lastDigit))
         {
             try
